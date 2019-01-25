@@ -1,0 +1,6 @@
+framework module Pods_MDAlertViewTests {
+  umbrella header "Pods-MDAlertViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
