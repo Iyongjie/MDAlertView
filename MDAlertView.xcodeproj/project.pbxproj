@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		969BBE4A51F78F835B555C87 /* Pods_MDAlertViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F33F9FCA78BB995FEDA83C /* Pods_MDAlertViewTests.framework */; };
 		AD6B02BA082CE9C488919834 /* Pods_MDAlertViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658FEB22708DC2A0EF63C148 /* Pods_MDAlertViewUITests.framework */; };
+		B72C7B76220063D500DF7089 /* HomeAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72C7B75220063D500DF7089 /* HomeAlertView.swift */; };
 		B77E021F21FAA104006D326B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E021E21FAA104006D326B /* AppDelegate.swift */; };
 		B77E022121FAA104006D326B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E022021FAA104006D326B /* ViewController.swift */; };
 		B77E022421FAA104006D326B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77E022221FAA104006D326B /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		95611A17A874E03D60755A0D /* Pods-MDAlertViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDAlertViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDAlertViewTests/Pods-MDAlertViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		9855EC130F9E9328E464BE1F /* Pods-MDAlertViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDAlertViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDAlertViewTests/Pods-MDAlertViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7A7C5B25EC82A47EADD61FF /* Pods-MDAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDAlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDAlertView/Pods-MDAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+		B72C7B75220063D500DF7089 /* HomeAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAlertView.swift; sourceTree = "<group>"; };
 		B77E021B21FAA104006D326B /* MDAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77E021E21FAA104006D326B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B77E022021FAA104006D326B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				B77E021E21FAA104006D326B /* AppDelegate.swift */,
 				B77E022021FAA104006D326B /* ViewController.swift */,
 				B77E024C21FAA120006D326B /* MDAlertView.swift */,
+				B72C7B75220063D500DF7089 /* HomeAlertView.swift */,
 				B77E025421FB0981006D326B /* background.jpg */,
 				B77E025221FB0879006D326B /* close.png */,
 				B77E022221FAA104006D326B /* Main.storyboard */,
@@ -404,6 +407,7 @@
 			files = (
 				B77E022121FAA104006D326B /* ViewController.swift in Sources */,
 				B77E024D21FAA120006D326B /* MDAlertView.swift in Sources */,
+				B72C7B76220063D500DF7089 /* HomeAlertView.swift in Sources */,
 				B77E021F21FAA104006D326B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

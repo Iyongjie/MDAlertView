@@ -5,6 +5,7 @@
 //  Created by 李永杰 on 2019/1/25.
 //  Copyright © 2019 Y了个J. All rights reserved.
 //
+// 用的时候，继承，自定义UI，事件传递等
 
 import UIKit
 import Foundation
@@ -46,10 +47,11 @@ class MDAlertView: UIView {
         super.init(frame: frame)
     }
     
-    convenience init( _ contentSize: CGSize, _ tapToDismiss: Bool) {
+    convenience init( _ contentSize: CGSize) {
         self.init(frame: CGRect(x: 0, y: 0, width: ScreenW, height: ScreenH))
-        contentViewSize = contentSize
+        self.contentViewSize = contentSize
         configAlertUI()
+
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -137,6 +139,6 @@ class MDAlertView: UIView {
         closeButton?.animation = "pop"
         closeButton?.curve = "spring"
         closeButton?.animate()
-    
+        
     }
 }
